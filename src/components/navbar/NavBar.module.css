@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #09605d;
+  color: white;
+}
+
+.nav ul {
+  list-style: none;
+  gap: 3rem;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--color-brand--2);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}
+
+.nav button {
+  background-color: green;
+  color: white;
+  padding: 0.6rem 1.6rem;
+  border-radius: 14px;
+  border-width: 0px;
+}

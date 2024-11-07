@@ -1,0 +1,23 @@
+.cities {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.city {
+  color: white;
+  padding: 12px;
+}
+
+.backdiv {
+  display: flex;
+  justify-content: end;
+}
+
+.backdiv button {
+  border-radius: 10px;
+  border: black 0px;
+  font-weight: 100px;
+  cursor: pointer;
+  padding: 12px;
+}

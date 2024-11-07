@@ -1,0 +1,65 @@
+/* Center the login form on the page */
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.loginForm {
+  width: 400px;
+  padding: 2rem;
+  background-color: grey;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.loginTitle {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.formField {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.formField label {
+  font-size: 0.9rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.formField input {
+  width: 90%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.formField input:focus {
+  border-color: #007bff;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}

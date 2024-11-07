@@ -1,0 +1,43 @@
+.page {
+  display: flex;
+}
+
+.sideBar {
+  width: 60%;
+  height: calc(100vh - 4.8rem);
+  background-color: #2f2d2d;
+  margin: 1%;
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navDiv {
+  display: flex;
+  margin-top: 20%;
+  justify-content: center;
+  border-radius: 30px;
+  border: 0px black;
+}
+
+.buttonNav {
+  padding: 10px;
+  background-color: #0c0c0c;
+  color: white;
+  border: 0px black;
+  text-decoration: none;
+}
+
+.outlet ul {
+  padding: auto;
+  color: white;
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style-type: none;
+}
+
+a:global(.active) {
+  background-color: cadetblue !important;
+  border-radius: 2px;
+}
